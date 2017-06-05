@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "import from":
+    "prefix": "import"
+    "body": """
+      import $1 from "$2";$3
+      """
